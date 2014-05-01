@@ -1,0 +1,98 @@
+/* =========
+Body Styling
+* font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+* bg.png file for background
+========= */
+body {
+	background: url("../img/bg.png");
+	color: #fff;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+
+/* =========
+Blockquote
+* color #e44d26
+* font size 2em
+* font style italic
+* letter spacing 1px
+* text aligned center
+========= */
+blockquote {
+	color: #e44d26;
+	font-size: 2em;
+	font-style: italic;
+	letter-spacing: 1px;
+	text-align: center; 
+}
+
+/* =========
+Navigation
+* List Items - Navigation provided
+
+Anchor Links
+* padding: 10px 10px 10px 40px;
+* color on hover #E44D26
+========= */
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 10px;
+}
+
+/* Base link styling */
+nav a:link, 
+nav a:visited {
+	color: #fff;
+	padding: 10px 10px 10px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover, 
+nav a:active {
+	color: #E44D26;
+}
+
+/* on hover show home.png */
+#home a:hover {
+	background: url("../img/icons/home.png") no-repeat left center;
+}
+
+/* on hover show home.png */
+#super a:hover {
+	background: url("../img/icons/super.png") no-repeat left center;
+}
+
+/* on hover show home.png */
+#html5 a:hover {
+	background: url("../img/icons/html5.png") no-repeat left center;
+}
+
+/* =========
+Super Friends
+* font-family: 'Open Sans', sans-serif;
+* text-indent: 32px;
+* line-height: 24px;
+========= */
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+article img {
+	border: 10px solid #fff;
+}
+
+img + p {
+	line-height: 24px;
+	text-indent: 32px;
+}
+
+/* =========
+Footer
+* arial font for paragraphs
+========= */
+footer p {
+	font: 10px/16px 'arial', sans-serif;
+}
+
